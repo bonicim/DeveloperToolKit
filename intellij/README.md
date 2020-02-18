@@ -10,7 +10,7 @@
   - Go to Project Structure 
   - Under Project Settings > Libraries, add the JUnit5 library by searching for `org.junit.jupiter` Choose the latest version, which is 5.5.2 as of 24 Oct 2019
   - Then go to Test module, and add the new Junit5 to Dependencies 
-  - Then update `build.gradle` with JUnit5. For more info, see [Maven Repository for JUnit5](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter/5.5.2). Replace the old `testCompile` section with the following : ```testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.5.2'```
+  - Then update `build.gradle` with JUnit5. For more info, see [Maven Repository for JUnit5](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter/5.5.2). Replace the old `testCompile` section with the following : ```testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.5.2'```
   - Also within `build.gradle` add the following code block:
 
 ```
