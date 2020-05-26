@@ -1,0 +1,9 @@
+# Linux Toolkit
+
+## Commonly used commands
+
+less
+ls -a
+grep "search term"
+
+ssh -p <port number> username@address
